@@ -19,7 +19,7 @@ class Shoe
   end 
   
    def condition
-    @condition == @repaired ? "new" : condition
+    @condition == @repaired ? "new" : @condition
     
   end 
   
