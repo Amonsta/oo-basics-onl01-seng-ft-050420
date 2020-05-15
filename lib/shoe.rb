@@ -11,17 +11,11 @@ class Shoe
   
 
   def cobble
-    puts @repaired = "Your shoe is as good as new!"
+    puts "Your shoe is as good as new!"
   end 
   
-   def condition=(condition)
-    @condition = condition
-  end 
-  
-   def condition
-    @condition == @repaired ? "new" : @condition
-    
-  end 
-  
+   def your_shoe_is_good_as_new
+     puts "new"
+   end
   
 end
